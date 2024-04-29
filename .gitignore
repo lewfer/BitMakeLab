@@ -1,12 +1,5 @@
 *.gcode
 xx*
-*.ecp
-*.G00
-*.MOL
-*.INI
-*.ai
-*.pub
 _*
 ~*
-*.xlsx
 
