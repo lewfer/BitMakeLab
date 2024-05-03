@@ -1,4 +1,6 @@
-# Digimake
+# BitMakeLab
 Resources for Digital Makers
+
+
 
 
