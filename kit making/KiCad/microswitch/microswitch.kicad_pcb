@@ -130,7 +130,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "92a4a64d-84ce-49e2-bf49-452f322ddd92")
 			(effects
@@ -674,6 +674,17 @@
 		(layer "Edge.Cuts")
 		(uuid "5e5dcd2d-35bf-4586-8a20-7292044ef56e")
 	)
+	(gr_circle
+		(center 103.25 53)
+		(end 103.25 51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "718268b9-2f51-4b18-af69-a74d1c8d2517")
+	)
 	(gr_arc
 		(start 97 50)
 		(mid 97.87868 47.87868)
@@ -755,41 +766,16 @@
 		(layer "Edge.Cuts")
 		(uuid "dc970740-727f-460e-ab0e-85c360267ef2")
 	)
-	(gr_text "G"
-		(at 127 57.5 90)
-		(layer "B.SilkS")
-		(uuid "5a328298-a495-4936-8e53-e2b4d15f8065")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
+	(gr_circle
+		(center 112 53)
+		(end 112 51)
+		(stroke
+			(width 0.05)
+			(type default)
 		)
-	)
-	(gr_text "V"
-		(at 127 55 90)
-		(layer "B.SilkS")
-		(uuid "a61773b2-32df-487b-bcbd-35c5dbadc99f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "S"
-		(at 127 52.5 90)
-		(layer "B.SilkS")
-		(uuid "f0a57998-f925-4a2c-b99b-b1edc0e72c50")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "ee674691-259a-41b6-a7d5-aa55e21f44cd")
 	)
 	(gr_text "G"
 		(at 127 53.5 90)
